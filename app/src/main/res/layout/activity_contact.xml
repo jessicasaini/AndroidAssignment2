@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0081ce"
+    tools:context="a00891437.set3s.comp3975.bankapp.Contact">
+
+
+
+
+
+<Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Home"
+    android:id="@+id/button"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:paddingRight="70dp"
+    android:gravity="right|center_vertical"
+    android:clickable="true"
+    android:background="@drawable/menu1"
+    style="?android:attr/borderlessButtonStyle"
+    android:paddingTop="3dp"
+    android:layout_marginBottom="10dp"
+    android:onClick="onClickHomeContact"
+    android:textSize="20dp"
+    android:paddingLeft="50dp"
+    android:nestedScrollingEnabled="false" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Phone: 1 800-123-3456"
+    android:id="@+id/textView9"
+    android:layout_below="@+id/button"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="39dp"
+    android:layout_marginLeft="20dp"
+    android:paddingBottom="5dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Location: 21312 Willingdon Ave, Burnaby, V5G 4G9"
+    android:id="@+id/textView10"
+    android:layout_marginTop="44dp"
+    android:paddingBottom="5dp"
+    android:layout_below="@+id/textView9"
+    android:layout_alignLeft="@+id/textView9"
+    android:layout_alignStart="@+id/textView9"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Website: www.banknow.com"
+        android:id="@+id/textView13"
+        android:layout_marginTop="42dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10" />
+
+
+</RelativeLayout>

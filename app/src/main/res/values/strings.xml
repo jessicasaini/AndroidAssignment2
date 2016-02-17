@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BankApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_my_right_drawer">MyRightDrawer</string>
+
+    <string name="title_section1">Home</string>
+    <string name="title_section2">My Accounts</string>
+    <string name="title_section3">Transfer</string>
+    <string name="title_section4">Pay Bills</string>
+    <string name="title_section5">Send Money</string>
+    <string name="title_section6">Credit</string>
+    <string name="title_section7">Contact</string>
+    <string name="title_section8">Logout</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string-array name="home_page_options"><item>My Accounts</item><item>My Credit Cards</item></string-array>
+    <string name="title_activity_my_accounts">MyAccounts</string>
+    <string name="title_activity_credit_cards">CreditCards</string>
+    <string name="title_activity_transfer">Transfer</string>
+
+    <string-array name="Accounts">
+        <item>Chequing - 1212121 - $1000.00</item>
+        <item>Savings - 21432443 - $1000.00</item>
+    </string-array>
+
+
+    <string-array name="Payees">
+        <item>Shaw Cable - 1212111</item>
+        <item>Cell Phone - 2121211</item>
+    </string-array>
+    <string name="title_activity_bills">Bills</string>
+    <string name="title_activity_send_money">SendMoney</string>
+    <string name="title_activity_contact">Contact</string>
+
+    </resources>
